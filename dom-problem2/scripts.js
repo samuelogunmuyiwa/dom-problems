@@ -6,8 +6,6 @@ Then, write a JavaScript function to get the HREF attribute of the link.
 
 let p1 = document.getElementById('p1');
 
-//let pLink = document.getElementById('link');
-
 function myFunction() {
   var x = document.getElementById("myAnchor").href;
   p1.innerHTML = x;
